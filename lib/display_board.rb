@@ -15,8 +15,17 @@ def display_board
     cell = "   "
     seperator = "|"
     line = "-----------"
-    puts cell + seperator + cell + seperator + cell
-    puts line
+    i = 0
+    while i < 5
+        if i % 2
+            puts line
+        else
+            puts cell + seperator + cell + seperator + cell
+        end
+        i += 1
+    end
+
+
     puts cell + seperator + cell + seperator + cell
     puts line
     puts cell + seperator + cell + seperator + cell

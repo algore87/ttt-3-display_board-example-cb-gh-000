@@ -11,6 +11,7 @@ def display_board
     i = 0
     5.times do
         if i % 2
+            puts i
             puts "---|---|---"
         else
             puts "   |   |   "

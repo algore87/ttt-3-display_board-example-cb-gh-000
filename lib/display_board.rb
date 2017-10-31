@@ -14,7 +14,7 @@
 def display_board
     for i in 0..4
         if i % 2 == 0
-            puts "---|---|---"
+            puts "   |   |   "
         else
             puts "-----------"
         end

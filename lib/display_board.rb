@@ -6,18 +6,13 @@
 #     | O |        | O |
 #  ---|---|---  -----------
 #     |   |        |   |
+#
+# Cell "   "
+# Seperator |
+# Middle Line ---|---|---
 
 def display_board
-    i = 0
-    5.times do
-        if i % 2
-            puts "---|---|---"
-            i += 1
-        else
-            puts "   |   |   "
-            i += 1
-        end
-    end
+
 end
 
 display_board()

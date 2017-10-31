@@ -24,6 +24,7 @@ def display_board
         end
         i += 1
     end
+end
 
 
 display_board()

@@ -26,9 +26,4 @@ def display_board
     end
 
 
-    puts cell + seperator + cell + seperator + cell
-    puts line
-    puts cell + seperator + cell + seperator + cell
-end
-
 display_board()

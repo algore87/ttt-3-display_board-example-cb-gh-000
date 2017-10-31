@@ -18,3 +18,5 @@ def display_board
         i += 1
     end
 end
+
+display_board()

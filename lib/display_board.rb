@@ -12,17 +12,12 @@
 # Middle Line ---|---|---
 
 def display_board
-    cell = "   "
-    seperator = "|"
-    line = "-----------"
-    i = 0
-    while i < 5
+    for i in 0..5
         if i % 2 == 1
             puts "-----------"
         else
             puts "---|---|---"
         end
-        i += 1
     end
 end
 

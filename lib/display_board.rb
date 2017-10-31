@@ -17,7 +17,7 @@ def display_board
     line = "-----------"
     i = 0
     while i < 5
-        if i % 2
+        if i % 2 == 1
             puts line
         else
             puts cell + seperator + cell + seperator + cell

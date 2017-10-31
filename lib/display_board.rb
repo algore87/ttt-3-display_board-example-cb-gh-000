@@ -12,7 +12,7 @@
 # Middle Line ---|---|---
 
 def display_board
-    for i in 0..5
+    for i in 0..4
         if i % 2 == 1
             puts "-----------"
         else

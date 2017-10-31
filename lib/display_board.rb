@@ -12,7 +12,14 @@
 # Middle Line ---|---|---
 
 def display_board
-
+    cell = "   "
+    seperator = "|"
+    line = "-----------"
+    puts cell + seperator + cell + seperator + cell
+    puts line
+    puts cell + seperator + cell + seperator + cell
+    puts line
+    puts cell + seperator + cell + seperator + cell
 end
 
 display_board()
